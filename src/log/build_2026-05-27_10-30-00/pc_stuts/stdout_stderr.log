@@ -1,0 +1,43 @@
+running egg_info
+creating ../build/pc_stuts/pc_stuts.egg-info
+writing ../build/pc_stuts/pc_stuts.egg-info/PKG-INFO
+writing dependency_links to ../build/pc_stuts/pc_stuts.egg-info/dependency_links.txt
+writing entry points to ../build/pc_stuts/pc_stuts.egg-info/entry_points.txt
+writing requirements to ../build/pc_stuts/pc_stuts.egg-info/requires.txt
+writing top-level names to ../build/pc_stuts/pc_stuts.egg-info/top_level.txt
+writing manifest file '../build/pc_stuts/pc_stuts.egg-info/SOURCES.txt'
+reading manifest file '../build/pc_stuts/pc_stuts.egg-info/SOURCES.txt'
+writing manifest file '../build/pc_stuts/pc_stuts.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xc2204/ros2_new_study/src/build/pc_stuts/build
+creating /home/xc2204/ros2_new_study/src/build/pc_stuts/build/lib
+creating /home/xc2204/ros2_new_study/src/build/pc_stuts/build/lib/pc_stuts
+copying pc_stuts/qt_ui.py -> /home/xc2204/ros2_new_study/src/build/pc_stuts/build/lib/pc_stuts
+copying pc_stuts/stuts_pub.py -> /home/xc2204/ros2_new_study/src/build/pc_stuts/build/lib/pc_stuts
+copying pc_stuts/__init__.py -> /home/xc2204/ros2_new_study/src/build/pc_stuts/build/lib/pc_stuts
+copying pc_stuts/stuts_sub.py -> /home/xc2204/ros2_new_study/src/build/pc_stuts/build/lib/pc_stuts
+running install
+running install_lib
+creating /home/xc2204/ros2_new_study/src/install/pc_stuts/lib/python3.10/site-packages/pc_stuts
+copying /home/xc2204/ros2_new_study/src/build/pc_stuts/build/lib/pc_stuts/qt_ui.py -> /home/xc2204/ros2_new_study/src/install/pc_stuts/lib/python3.10/site-packages/pc_stuts
+copying /home/xc2204/ros2_new_study/src/build/pc_stuts/build/lib/pc_stuts/stuts_pub.py -> /home/xc2204/ros2_new_study/src/install/pc_stuts/lib/python3.10/site-packages/pc_stuts
+copying /home/xc2204/ros2_new_study/src/build/pc_stuts/build/lib/pc_stuts/__init__.py -> /home/xc2204/ros2_new_study/src/install/pc_stuts/lib/python3.10/site-packages/pc_stuts
+copying /home/xc2204/ros2_new_study/src/build/pc_stuts/build/lib/pc_stuts/stuts_sub.py -> /home/xc2204/ros2_new_study/src/install/pc_stuts/lib/python3.10/site-packages/pc_stuts
+byte-compiling /home/xc2204/ros2_new_study/src/install/pc_stuts/lib/python3.10/site-packages/pc_stuts/qt_ui.py to qt_ui.cpython-310.pyc
+byte-compiling /home/xc2204/ros2_new_study/src/install/pc_stuts/lib/python3.10/site-packages/pc_stuts/stuts_pub.py to stuts_pub.cpython-310.pyc
+byte-compiling /home/xc2204/ros2_new_study/src/install/pc_stuts/lib/python3.10/site-packages/pc_stuts/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/xc2204/ros2_new_study/src/install/pc_stuts/lib/python3.10/site-packages/pc_stuts/stuts_sub.py to stuts_sub.cpython-310.pyc
+running install_data
+creating /home/xc2204/ros2_new_study/src/install/pc_stuts/share/ament_index
+creating /home/xc2204/ros2_new_study/src/install/pc_stuts/share/ament_index/resource_index
+creating /home/xc2204/ros2_new_study/src/install/pc_stuts/share/ament_index/resource_index/packages
+copying resource/pc_stuts -> /home/xc2204/ros2_new_study/src/install/pc_stuts/share/ament_index/resource_index/packages
+copying package.xml -> /home/xc2204/ros2_new_study/src/install/pc_stuts/share/pc_stuts
+running install_egg_info
+Copying ../build/pc_stuts/pc_stuts.egg-info to /home/xc2204/ros2_new_study/src/install/pc_stuts/lib/python3.10/site-packages/pc_stuts-0.0.0-py3.10.egg-info
+running install_scripts
+Installing qt_ui script to /home/xc2204/ros2_new_study/src/install/pc_stuts/lib/pc_stuts
+Installing stuts_pub script to /home/xc2204/ros2_new_study/src/install/pc_stuts/lib/pc_stuts
+Installing stuts_sub script to /home/xc2204/ros2_new_study/src/install/pc_stuts/lib/pc_stuts
+writing list of installed files to '/home/xc2204/ros2_new_study/src/build/pc_stuts/install.log'

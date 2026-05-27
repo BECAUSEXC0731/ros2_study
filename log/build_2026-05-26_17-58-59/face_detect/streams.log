@@ -1,0 +1,50 @@
+[0.688s] Invoking command in '/home/xc2204/ros2_new_study/src/face_detect': PYTHONPATH=/home/xc2204/ros2_new_study/build/face_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xc2204/ros2_new_study/install/face_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/face_detect build --build-base /home/xc2204/ros2_new_study/build/face_detect/build install --record /home/xc2204/ros2_new_study/build/face_detect/install.log --single-version-externally-managed install_data
+[0.881s] running egg_info
+[0.882s] creating ../../build/face_detect/face_detect.egg-info
+[0.882s] writing ../../build/face_detect/face_detect.egg-info/PKG-INFO
+[0.882s] writing dependency_links to ../../build/face_detect/face_detect.egg-info/dependency_links.txt
+[0.883s] writing entry points to ../../build/face_detect/face_detect.egg-info/entry_points.txt
+[0.883s] writing requirements to ../../build/face_detect/face_detect.egg-info/requires.txt
+[0.883s] writing top-level names to ../../build/face_detect/face_detect.egg-info/top_level.txt
+[0.883s] writing manifest file '../../build/face_detect/face_detect.egg-info/SOURCES.txt'
+[0.884s] reading manifest file '../../build/face_detect/face_detect.egg-info/SOURCES.txt'
+[0.885s] writing manifest file '../../build/face_detect/face_detect.egg-info/SOURCES.txt'
+[0.886s] running build
+[0.886s] running build_py
+[0.886s] creating /home/xc2204/ros2_new_study/build/face_detect/build
+[0.886s] creating /home/xc2204/ros2_new_study/build/face_detect/build/lib
+[0.886s] creating /home/xc2204/ros2_new_study/build/face_detect/build/lib/face_detect
+[0.887s] copying face_detect/srv_face_detect.py -> /home/xc2204/ros2_new_study/build/face_detect/build/lib/face_detect
+[0.887s] copying face_detect/video_detect.py -> /home/xc2204/ros2_new_study/build/face_detect/build/lib/face_detect
+[0.887s] copying face_detect/client_face_detect.py -> /home/xc2204/ros2_new_study/build/face_detect/build/lib/face_detect
+[0.887s] copying face_detect/__init__.py -> /home/xc2204/ros2_new_study/build/face_detect/build/lib/face_detect
+[0.887s] running install
+[0.887s] running install_lib
+[0.888s] creating /home/xc2204/ros2_new_study/install/face_detect/lib/python3.10/site-packages/face_detect
+[0.889s] copying /home/xc2204/ros2_new_study/build/face_detect/build/lib/face_detect/srv_face_detect.py -> /home/xc2204/ros2_new_study/install/face_detect/lib/python3.10/site-packages/face_detect
+[0.889s] copying /home/xc2204/ros2_new_study/build/face_detect/build/lib/face_detect/video_detect.py -> /home/xc2204/ros2_new_study/install/face_detect/lib/python3.10/site-packages/face_detect
+[0.889s] copying /home/xc2204/ros2_new_study/build/face_detect/build/lib/face_detect/client_face_detect.py -> /home/xc2204/ros2_new_study/install/face_detect/lib/python3.10/site-packages/face_detect
+[0.889s] copying /home/xc2204/ros2_new_study/build/face_detect/build/lib/face_detect/__init__.py -> /home/xc2204/ros2_new_study/install/face_detect/lib/python3.10/site-packages/face_detect
+[0.889s] byte-compiling /home/xc2204/ros2_new_study/install/face_detect/lib/python3.10/site-packages/face_detect/srv_face_detect.py to srv_face_detect.cpython-310.pyc
+[0.890s] byte-compiling /home/xc2204/ros2_new_study/install/face_detect/lib/python3.10/site-packages/face_detect/video_detect.py to video_detect.cpython-310.pyc
+[0.891s] byte-compiling /home/xc2204/ros2_new_study/install/face_detect/lib/python3.10/site-packages/face_detect/client_face_detect.py to client_face_detect.cpython-310.pyc
+[0.892s] byte-compiling /home/xc2204/ros2_new_study/install/face_detect/lib/python3.10/site-packages/face_detect/__init__.py to __init__.cpython-310.pyc
+[0.892s] running install_data
+[0.892s] creating /home/xc2204/ros2_new_study/install/face_detect/share/ament_index
+[0.892s] creating /home/xc2204/ros2_new_study/install/face_detect/share/ament_index/resource_index
+[0.893s] creating /home/xc2204/ros2_new_study/install/face_detect/share/ament_index/resource_index/packages
+[0.893s] copying resource/face_detect -> /home/xc2204/ros2_new_study/install/face_detect/share/ament_index/resource_index/packages
+[0.893s] copying package.xml -> /home/xc2204/ros2_new_study/install/face_detect/share/face_detect
+[0.893s] creating /home/xc2204/ros2_new_study/install/face_detect/share/face_detect/resource
+[0.893s] copying resource/image.png -> /home/xc2204/ros2_new_study/install/face_detect/share/face_detect/resource
+[0.895s] copying resource/image_face.png -> /home/xc2204/ros2_new_study/install/face_detect/share/face_detect/resource
+[0.897s] creating /home/xc2204/ros2_new_study/install/face_detect/share/face_detect/launch
+[0.898s] copying launch/face _det_python.launch.py -> /home/xc2204/ros2_new_study/install/face_detect/share/face_detect/launch
+[0.898s] running install_egg_info
+[0.900s] Copying ../../build/face_detect/face_detect.egg-info to /home/xc2204/ros2_new_study/install/face_detect/lib/python3.10/site-packages/face_detect-0.0.0-py3.10.egg-info
+[0.901s] running install_scripts
+[0.919s] Installing client_face_detect script to /home/xc2204/ros2_new_study/install/face_detect/lib/face_detect
+[0.919s] Installing srv_face_detect script to /home/xc2204/ros2_new_study/install/face_detect/lib/face_detect
+[0.919s] Installing video_detect script to /home/xc2204/ros2_new_study/install/face_detect/lib/face_detect
+[0.920s] writing list of installed files to '/home/xc2204/ros2_new_study/build/face_detect/install.log'
+[0.940s] Invoked command in '/home/xc2204/ros2_new_study/src/face_detect' returned '0': PYTHONPATH=/home/xc2204/ros2_new_study/build/face_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xc2204/ros2_new_study/install/face_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/face_detect build --build-base /home/xc2204/ros2_new_study/build/face_detect/build install --record /home/xc2204/ros2_new_study/build/face_detect/install.log --single-version-externally-managed install_data

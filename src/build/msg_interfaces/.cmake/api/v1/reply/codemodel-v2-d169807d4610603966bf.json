@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9746b7814646a59e44da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "msg_interfaces__py",
+					"jsonFile" : "directory-msg_interfaces__py-880874c2ce55fcfc0dd3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/xc2204/ros2_new_study/src/build/msg_interfaces/msg_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "msg_interfaces__rs",
+					"jsonFile" : "directory-msg_interfaces__rs-ee34fc4b024cc6fa2b40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/xc2204/ros2_new_study/src/build/msg_interfaces/msg_interfaces__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "msg_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_msg_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_msg_interfaces_egg-b81d096ed168fe8e27cb.json",
+					"name" : "ament_cmake_python_build_msg_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_msg_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_msg_interfaces-c073f9efda28343b66af.json",
+					"name" : "ament_cmake_python_copy_msg_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_interfaces-08cb1924f229a9288b70.json",
+					"name" : "msg_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_interfaces__cpp-1b3b0b69b7d82c67da6e.json",
+					"name" : "msg_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "msg_interfaces__py::@92ea2f36411f86559321",
+					"jsonFile" : "target-msg_interfaces__py-f4432cd11e4ab587f2ad.json",
+					"name" : "msg_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_interfaces__rosidl_generator_c-59d9e43c9a7625706939.json",
+					"name" : "msg_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_interfaces__rosidl_generator_py-4577b957f7d1e649eee0.json",
+					"name" : "msg_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_interfaces__rosidl_typesupport_c-3849d853b4b5919b8e33.json",
+					"name" : "msg_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_interfaces__rosidl_typesupport_c__pyext-53a09d5c7426c8824748.json",
+					"name" : "msg_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_interfaces__rosidl_typesupport_cpp-a236b2d4a7e6dc77bf30.json",
+					"name" : "msg_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_interfaces__rosidl_typesupport_fastrtps_c-9f7ab126a5ce5c1fed60.json",
+					"name" : "msg_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_interfaces__rosidl_typesupport_fastrtps_c__pyext-d7ebf52ebdbe0b3dd98c.json",
+					"name" : "msg_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_interfaces__rosidl_typesupport_fastrtps_cpp-4cdba99d4d565cd3e205.json",
+					"name" : "msg_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_interfaces__rosidl_typesupport_introspection_c-add7750d9f1f0c2e93a3.json",
+					"name" : "msg_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_interfaces__rosidl_typesupport_introspection_c__pyext-e02ef5bc7b4bc65f1d14.json",
+					"name" : "msg_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_interfaces__rosidl_typesupport_introspection_cpp-dff000179cb8bd485486.json",
+					"name" : "msg_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "msg_interfaces__rs::@3d44bbf797a1b4d3c810",
+					"jsonFile" : "target-msg_interfaces__rs-5f949035e268ad112fdf.json",
+					"name" : "msg_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "msg_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-msg_interfaces_uninstall-d8bb3fb17e365f71177e.json",
+					"name" : "msg_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2b321cc89e3be51be2f2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xc2204/ros2_new_study/src/build/msg_interfaces",
+		"source" : "/home/xc2204/ros2_new_study/src/msg_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,6 @@
+[console_scripts]
+download_node = test_pkg.download:main
+name_node = test_pkg.hello:main
+publisher_node = test_pkg.publisher:main
+subscriber_node = test_pkg.subscriber:main
+

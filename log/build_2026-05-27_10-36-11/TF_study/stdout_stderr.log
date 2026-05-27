@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/TF_study/TF_study.egg-info
+writing ../../build/TF_study/TF_study.egg-info/PKG-INFO
+writing dependency_links to ../../build/TF_study/TF_study.egg-info/dependency_links.txt
+writing entry points to ../../build/TF_study/TF_study.egg-info/entry_points.txt
+writing requirements to ../../build/TF_study/TF_study.egg-info/requires.txt
+writing top-level names to ../../build/TF_study/TF_study.egg-info/top_level.txt
+writing manifest file '../../build/TF_study/TF_study.egg-info/SOURCES.txt'
+reading manifest file '../../build/TF_study/TF_study.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/TF_study/TF_study.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xc2204/ros2_new_study/build/TF_study/build
+creating /home/xc2204/ros2_new_study/build/TF_study/build/lib
+creating /home/xc2204/ros2_new_study/build/TF_study/build/lib/TF_study
+copying TF_study/dynamic_TF_broadcast.py -> /home/xc2204/ros2_new_study/build/TF_study/build/lib/TF_study
+copying TF_study/static_TF_broadcast.py -> /home/xc2204/ros2_new_study/build/TF_study/build/lib/TF_study
+copying TF_study/__init__.py -> /home/xc2204/ros2_new_study/build/TF_study/build/lib/TF_study
+running install
+running install_lib
+creating /home/xc2204/ros2_new_study/install/TF_study/lib/python3.10/site-packages/TF_study
+copying /home/xc2204/ros2_new_study/build/TF_study/build/lib/TF_study/dynamic_TF_broadcast.py -> /home/xc2204/ros2_new_study/install/TF_study/lib/python3.10/site-packages/TF_study
+copying /home/xc2204/ros2_new_study/build/TF_study/build/lib/TF_study/static_TF_broadcast.py -> /home/xc2204/ros2_new_study/install/TF_study/lib/python3.10/site-packages/TF_study
+copying /home/xc2204/ros2_new_study/build/TF_study/build/lib/TF_study/__init__.py -> /home/xc2204/ros2_new_study/install/TF_study/lib/python3.10/site-packages/TF_study
+byte-compiling /home/xc2204/ros2_new_study/install/TF_study/lib/python3.10/site-packages/TF_study/dynamic_TF_broadcast.py to dynamic_TF_broadcast.cpython-310.pyc
+byte-compiling /home/xc2204/ros2_new_study/install/TF_study/lib/python3.10/site-packages/TF_study/static_TF_broadcast.py to static_TF_broadcast.cpython-310.pyc
+byte-compiling /home/xc2204/ros2_new_study/install/TF_study/lib/python3.10/site-packages/TF_study/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/xc2204/ros2_new_study/install/TF_study/share/ament_index
+creating /home/xc2204/ros2_new_study/install/TF_study/share/ament_index/resource_index
+creating /home/xc2204/ros2_new_study/install/TF_study/share/ament_index/resource_index/packages
+copying resource/TF_study -> /home/xc2204/ros2_new_study/install/TF_study/share/ament_index/resource_index/packages
+copying package.xml -> /home/xc2204/ros2_new_study/install/TF_study/share/TF_study
+running install_egg_info
+Copying ../../build/TF_study/TF_study.egg-info to /home/xc2204/ros2_new_study/install/TF_study/lib/python3.10/site-packages/TF_study-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dynamic_tf_broadcaster script to /home/xc2204/ros2_new_study/install/TF_study/lib/TF_study
+Installing static_tf_broadcaster script to /home/xc2204/ros2_new_study/install/TF_study/lib/TF_study
+writing list of installed files to '/home/xc2204/ros2_new_study/build/TF_study/install.log'

@@ -1,0 +1,5 @@
+[console_scripts]
+dynamic_tf_broadcaster = TF_study.dynamic_TF_broadcast:main
+static_tf_broadcaster = TF_study.static_TF_broadcast:main
+tf_listen = TF_study.tf_listen:main
+

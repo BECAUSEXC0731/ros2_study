@@ -1,0 +1,25 @@
+[0.740s] Invoking command in '/home/xc2204/ros2_new_study/src/test_pkg': PYTHONPATH=/home/xc2204/ros2_new_study/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/xc2204/ros2_new_study/build/test_pkg/build install --record /home/xc2204/ros2_new_study/build/test_pkg/install.log --single-version-externally-managed install_data
+[0.914s] running egg_info
+[0.915s] writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO
+[0.915s] writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+[0.915s] writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt
+[0.916s] writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt
+[0.916s] writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt
+[0.917s] reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.918s] adding license file 'LICENSE'
+[0.918s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.919s] running build
+[0.919s] running build_py
+[0.919s] running install
+[0.919s] running install_lib
+[0.921s] running install_data
+[0.921s] running install_egg_info
+[0.923s] removing '/home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.924s] Copying ../../build/test_pkg/test_pkg.egg-info to /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info
+[0.925s] running install_scripts
+[0.941s] Installing download_node script to /home/xc2204/ros2_new_study/install/test_pkg/lib/test_pkg
+[0.942s] Installing name_node script to /home/xc2204/ros2_new_study/install/test_pkg/lib/test_pkg
+[0.942s] Installing publisher_node script to /home/xc2204/ros2_new_study/install/test_pkg/lib/test_pkg
+[0.942s] Installing subscriber_node script to /home/xc2204/ros2_new_study/install/test_pkg/lib/test_pkg
+[0.942s] writing list of installed files to '/home/xc2204/ros2_new_study/build/test_pkg/install.log'
+[0.965s] Invoked command in '/home/xc2204/ros2_new_study/src/test_pkg' returned '0': PYTHONPATH=/home/xc2204/ros2_new_study/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/xc2204/ros2_new_study/build/test_pkg/build install --record /home/xc2204/ros2_new_study/build/test_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+[console_scripts]
+qt_ui = pc_stuts.qt_ui:main
+stuts_pub = pc_stuts.stuts_pub:main
+stuts_sub = pc_stuts.stuts_sub:main
+

@@ -1,0 +1,48 @@
+running egg_info
+creating ../build/face_detect/face_detect.egg-info
+writing ../build/face_detect/face_detect.egg-info/PKG-INFO
+writing dependency_links to ../build/face_detect/face_detect.egg-info/dependency_links.txt
+writing entry points to ../build/face_detect/face_detect.egg-info/entry_points.txt
+writing requirements to ../build/face_detect/face_detect.egg-info/requires.txt
+writing top-level names to ../build/face_detect/face_detect.egg-info/top_level.txt
+writing manifest file '../build/face_detect/face_detect.egg-info/SOURCES.txt'
+reading manifest file '../build/face_detect/face_detect.egg-info/SOURCES.txt'
+writing manifest file '../build/face_detect/face_detect.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xc2204/ros2_new_study/src/build/face_detect/build
+creating /home/xc2204/ros2_new_study/src/build/face_detect/build/lib
+creating /home/xc2204/ros2_new_study/src/build/face_detect/build/lib/face_detect
+copying face_detect/srv_face_detect.py -> /home/xc2204/ros2_new_study/src/build/face_detect/build/lib/face_detect
+copying face_detect/video_detect.py -> /home/xc2204/ros2_new_study/src/build/face_detect/build/lib/face_detect
+copying face_detect/client_face_detect.py -> /home/xc2204/ros2_new_study/src/build/face_detect/build/lib/face_detect
+copying face_detect/__init__.py -> /home/xc2204/ros2_new_study/src/build/face_detect/build/lib/face_detect
+running install
+running install_lib
+creating /home/xc2204/ros2_new_study/src/install/face_detect/lib/python3.10/site-packages/face_detect
+copying /home/xc2204/ros2_new_study/src/build/face_detect/build/lib/face_detect/srv_face_detect.py -> /home/xc2204/ros2_new_study/src/install/face_detect/lib/python3.10/site-packages/face_detect
+copying /home/xc2204/ros2_new_study/src/build/face_detect/build/lib/face_detect/video_detect.py -> /home/xc2204/ros2_new_study/src/install/face_detect/lib/python3.10/site-packages/face_detect
+copying /home/xc2204/ros2_new_study/src/build/face_detect/build/lib/face_detect/client_face_detect.py -> /home/xc2204/ros2_new_study/src/install/face_detect/lib/python3.10/site-packages/face_detect
+copying /home/xc2204/ros2_new_study/src/build/face_detect/build/lib/face_detect/__init__.py -> /home/xc2204/ros2_new_study/src/install/face_detect/lib/python3.10/site-packages/face_detect
+byte-compiling /home/xc2204/ros2_new_study/src/install/face_detect/lib/python3.10/site-packages/face_detect/srv_face_detect.py to srv_face_detect.cpython-310.pyc
+byte-compiling /home/xc2204/ros2_new_study/src/install/face_detect/lib/python3.10/site-packages/face_detect/video_detect.py to video_detect.cpython-310.pyc
+byte-compiling /home/xc2204/ros2_new_study/src/install/face_detect/lib/python3.10/site-packages/face_detect/client_face_detect.py to client_face_detect.cpython-310.pyc
+byte-compiling /home/xc2204/ros2_new_study/src/install/face_detect/lib/python3.10/site-packages/face_detect/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/xc2204/ros2_new_study/src/install/face_detect/share/ament_index
+creating /home/xc2204/ros2_new_study/src/install/face_detect/share/ament_index/resource_index
+creating /home/xc2204/ros2_new_study/src/install/face_detect/share/ament_index/resource_index/packages
+copying resource/face_detect -> /home/xc2204/ros2_new_study/src/install/face_detect/share/ament_index/resource_index/packages
+copying package.xml -> /home/xc2204/ros2_new_study/src/install/face_detect/share/face_detect
+creating /home/xc2204/ros2_new_study/src/install/face_detect/share/face_detect/resource
+copying resource/image.png -> /home/xc2204/ros2_new_study/src/install/face_detect/share/face_detect/resource
+copying resource/image_face.png -> /home/xc2204/ros2_new_study/src/install/face_detect/share/face_detect/resource
+creating /home/xc2204/ros2_new_study/src/install/face_detect/share/face_detect/launch
+copying launch/face.launch.py -> /home/xc2204/ros2_new_study/src/install/face_detect/share/face_detect/launch
+running install_egg_info
+Copying ../build/face_detect/face_detect.egg-info to /home/xc2204/ros2_new_study/src/install/face_detect/lib/python3.10/site-packages/face_detect-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client_face_detect script to /home/xc2204/ros2_new_study/src/install/face_detect/lib/face_detect
+Installing srv_face_detect script to /home/xc2204/ros2_new_study/src/install/face_detect/lib/face_detect
+Installing video_detect script to /home/xc2204/ros2_new_study/src/install/face_detect/lib/face_detect
+writing list of installed files to '/home/xc2204/ros2_new_study/src/build/face_detect/install.log'

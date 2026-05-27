@@ -1,0 +1,45 @@
+[1.240s] Invoking command in '/home/xc2204/ros2_new_study/src/pc_stuts': PYTHONPATH=/home/xc2204/ros2_new_study/build/pc_stuts/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pc_stuts build --build-base /home/xc2204/ros2_new_study/build/pc_stuts/build install --record /home/xc2204/ros2_new_study/build/pc_stuts/install.log --single-version-externally-managed install_data
+[1.446s] running egg_info
+[1.446s] creating ../../build/pc_stuts/pc_stuts.egg-info
+[1.447s] writing ../../build/pc_stuts/pc_stuts.egg-info/PKG-INFO
+[1.447s] writing dependency_links to ../../build/pc_stuts/pc_stuts.egg-info/dependency_links.txt
+[1.447s] writing entry points to ../../build/pc_stuts/pc_stuts.egg-info/entry_points.txt
+[1.448s] writing requirements to ../../build/pc_stuts/pc_stuts.egg-info/requires.txt
+[1.448s] writing top-level names to ../../build/pc_stuts/pc_stuts.egg-info/top_level.txt
+[1.448s] writing manifest file '../../build/pc_stuts/pc_stuts.egg-info/SOURCES.txt'
+[1.449s] reading manifest file '../../build/pc_stuts/pc_stuts.egg-info/SOURCES.txt'
+[1.450s] writing manifest file '../../build/pc_stuts/pc_stuts.egg-info/SOURCES.txt'
+[1.450s] running build
+[1.451s] running build_py
+[1.451s] creating /home/xc2204/ros2_new_study/build/pc_stuts/build
+[1.452s] creating /home/xc2204/ros2_new_study/build/pc_stuts/build/lib
+[1.452s] creating /home/xc2204/ros2_new_study/build/pc_stuts/build/lib/pc_stuts
+[1.452s] copying pc_stuts/qt_ui.py -> /home/xc2204/ros2_new_study/build/pc_stuts/build/lib/pc_stuts
+[1.452s] copying pc_stuts/stuts_pub.py -> /home/xc2204/ros2_new_study/build/pc_stuts/build/lib/pc_stuts
+[1.452s] copying pc_stuts/__init__.py -> /home/xc2204/ros2_new_study/build/pc_stuts/build/lib/pc_stuts
+[1.452s] copying pc_stuts/stuts_sub.py -> /home/xc2204/ros2_new_study/build/pc_stuts/build/lib/pc_stuts
+[1.452s] running install
+[1.453s] running install_lib
+[1.453s] creating /home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages/pc_stuts
+[1.454s] copying /home/xc2204/ros2_new_study/build/pc_stuts/build/lib/pc_stuts/qt_ui.py -> /home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages/pc_stuts
+[1.454s] copying /home/xc2204/ros2_new_study/build/pc_stuts/build/lib/pc_stuts/stuts_pub.py -> /home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages/pc_stuts
+[1.454s] copying /home/xc2204/ros2_new_study/build/pc_stuts/build/lib/pc_stuts/__init__.py -> /home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages/pc_stuts
+[1.454s] copying /home/xc2204/ros2_new_study/build/pc_stuts/build/lib/pc_stuts/stuts_sub.py -> /home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages/pc_stuts
+[1.454s] byte-compiling /home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages/pc_stuts/qt_ui.py to qt_ui.cpython-310.pyc
+[1.456s] byte-compiling /home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages/pc_stuts/stuts_pub.py to stuts_pub.cpython-310.pyc
+[1.456s] byte-compiling /home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages/pc_stuts/__init__.py to __init__.cpython-310.pyc
+[1.456s] byte-compiling /home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages/pc_stuts/stuts_sub.py to stuts_sub.cpython-310.pyc
+[1.456s] running install_data
+[1.457s] creating /home/xc2204/ros2_new_study/install/pc_stuts/share/ament_index
+[1.457s] creating /home/xc2204/ros2_new_study/install/pc_stuts/share/ament_index/resource_index
+[1.457s] creating /home/xc2204/ros2_new_study/install/pc_stuts/share/ament_index/resource_index/packages
+[1.457s] copying resource/pc_stuts -> /home/xc2204/ros2_new_study/install/pc_stuts/share/ament_index/resource_index/packages
+[1.457s] copying package.xml -> /home/xc2204/ros2_new_study/install/pc_stuts/share/pc_stuts
+[1.457s] running install_egg_info
+[1.459s] Copying ../../build/pc_stuts/pc_stuts.egg-info to /home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages/pc_stuts-0.0.0-py3.10.egg-info
+[1.460s] running install_scripts
+[1.478s] Installing qt_ui script to /home/xc2204/ros2_new_study/install/pc_stuts/lib/pc_stuts
+[1.478s] Installing stuts_pub script to /home/xc2204/ros2_new_study/install/pc_stuts/lib/pc_stuts
+[1.479s] Installing stuts_sub script to /home/xc2204/ros2_new_study/install/pc_stuts/lib/pc_stuts
+[1.479s] writing list of installed files to '/home/xc2204/ros2_new_study/build/pc_stuts/install.log'
+[1.501s] Invoked command in '/home/xc2204/ros2_new_study/src/pc_stuts' returned '0': PYTHONPATH=/home/xc2204/ros2_new_study/build/pc_stuts/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pc_stuts build --build-base /home/xc2204/ros2_new_study/build/pc_stuts/build install --record /home/xc2204/ros2_new_study/build/pc_stuts/install.log --single-version-externally-managed install_data

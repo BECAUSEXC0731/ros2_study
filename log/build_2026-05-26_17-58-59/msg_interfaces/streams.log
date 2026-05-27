@@ -1,0 +1,291 @@
+[0.030s] Invoking command in '/home/xc2204/ros2_new_study/build/msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xc2204/ros2_new_study/install/test_pkg:/home/xc2204/ros2_new_study/install/pc_stuts:/home/xc2204/ros2_new_study/install/face_detect:/opt/ros/humble /usr/bin/cmake /home/xc2204/ros2_new_study/src/msg_interfaces -DCMAKE_INSTALL_PREFIX=/home/xc2204/ros2_new_study/install/msg_interfaces
+[0.394s] -- The C compiler identification is GNU 11.4.0
+[1.226s] -- The CXX compiler identification is GNU 11.4.0
+[1.788s] -- Detecting C compiler ABI info
+[1.997s] -- Detecting C compiler ABI info - done
+[2.003s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.004s] -- Detecting C compile features
+[2.005s] -- Detecting C compile features - done
+[2.009s] -- Detecting CXX compiler ABI info
+[2.216s] -- Detecting CXX compiler ABI info - done
+[2.221s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.221s] -- Detecting CXX compile features
+[2.222s] -- Detecting CXX compile features - done
+[2.246s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.379s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.480s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.497s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.781s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.851s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.877s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.273s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.543s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.866s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.081s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.084s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.688s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.688s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.688s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.688s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.705s] -- Found PythonExtra: .so  
+[4.904s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.935s] -- Added test 'lint_cmake' to check CMake code style
+[4.936s] -- Added test 'xmllint' to check XML markup files
+[4.940s] -- Configuring done
+[4.984s] -- Generating done
+[4.996s] -- Build files have been written to: /home/xc2204/ros2_new_study/build/msg_interfaces
+[5.006s] Invoked command in '/home/xc2204/ros2_new_study/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xc2204/ros2_new_study/install/test_pkg:/home/xc2204/ros2_new_study/install/pc_stuts:/home/xc2204/ros2_new_study/install/face_detect:/opt/ros/humble /usr/bin/cmake /home/xc2204/ros2_new_study/src/msg_interfaces -DCMAKE_INSTALL_PREFIX=/home/xc2204/ros2_new_study/install/msg_interfaces
+[5.008s] Invoking command in '/home/xc2204/ros2_new_study/build/msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xc2204/ros2_new_study/install/test_pkg:/home/xc2204/ros2_new_study/install/pc_stuts:/home/xc2204/ros2_new_study/install/face_detect:/opt/ros/humble /usr/bin/cmake --build /home/xc2204/ros2_new_study/build/msg_interfaces -- -j20 -l20
+[5.041s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.049s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[5.050s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.058s] [  7%] Built target ament_cmake_python_copy_msg_interfaces
+[5.313s] running egg_info
+[5.314s] creating msg_interfaces.egg-info
+[5.314s] writing msg_interfaces.egg-info/PKG-INFO
+[5.315s] writing dependency_links to msg_interfaces.egg-info/dependency_links.txt
+[5.315s] writing top-level names to msg_interfaces.egg-info/top_level.txt
+[5.315s] writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'
+[5.317s] reading manifest file 'msg_interfaces.egg-info/SOURCES.txt'
+[5.318s] writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'
+[5.355s] [  7%] Built target ament_cmake_python_build_msg_interfaces_egg
+[5.409s] [  7%] Built target msg_interfaces__rs
+[5.441s] [ 10%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/system_status__functions.c.o[0m
+[5.442s] [ 12%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/srv/detail/face_detector__functions.c.o[0m
+[5.451s] [ 12%] Built target msg_interfaces__cpp
+[5.461s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.461s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.464s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.549s] [ 22%] [32m[1mLinking C shared library libmsg_interfaces__rosidl_generator_c.so[0m
+[5.815s] [ 25%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/system_status__type_support.cpp.o[0m
+[5.816s] [ 27%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/srv/face_detector__type_support.cpp.o[0m
+[5.847s] [ 27%] Built target msg_interfaces__rosidl_generator_c
+[5.851s] [ 30%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/srv/detail/face_detector__type_support.cpp.o[0m
+[5.853s] [ 32%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/system_status__type_support.cpp.o[0m
+[5.860s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.860s] [ 40%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o[0m
+[5.860s] [ 40%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.860s] [ 42%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[5.865s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.288s] [ 47%] [32m[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_cpp.so[0m
+[6.311s] [ 50%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/system_status__type_support.cpp.o[0m
+[6.312s] [ 52%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/srv/face_detector__type_support.cpp.o[0m
+[6.345s] [ 55%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/system_status__type_support.c.o[0m
+[6.345s] [ 57%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/srv/detail/face_detector__type_support.c.o[0m
+[6.354s] [ 60%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/srv/detail/face_detector__type_support_c.cpp.o[0m
+[6.356s] [ 65%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/system_status__type_support_c.cpp.o[0m
+[6.356s] [ 65%] [32m[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_c.so[0m
+[6.413s] [ 67%] [32m[1mLinking C shared library libmsg_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.504s] [ 70%] [32m[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.532s] [ 72%] [32m[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.625s] [ 72%] Built target msg_interfaces__rosidl_typesupport_cpp
+[6.636s] [ 72%] Built target msg_interfaces__rosidl_typesupport_c
+[6.693s] [ 72%] Built target msg_interfaces__rosidl_typesupport_introspection_c
+[6.737s] [ 75%] [32m[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.785s] [ 75%] Built target msg_interfaces__rosidl_typesupport_introspection_cpp
+[6.832s] [ 75%] Built target msg_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.982s] [ 75%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c
+[6.999s] [ 75%] Built target msg_interfaces
+[7.020s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.481s] [ 77%] Built target msg_interfaces__py
+[7.500s] [ 82%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/srv/_face_detector_s.c.o[0m
+[7.500s] [ 82%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_system_status_s.c.o[0m
+[7.668s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so[0m
+[7.855s] [ 85%] Built target msg_interfaces__rosidl_generator_py
+[7.872s] [ 87%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.872s] [ 90%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.872s] [ 92%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.962s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.962s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.964s] [100%] [32m[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.123s] [100%] Built target msg_interfaces__rosidl_typesupport_introspection_c__pyext
+[8.123s] [100%] Built target msg_interfaces__rosidl_typesupport_c__pyext
+[8.173s] [100%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[8.184s] Invoked command in '/home/xc2204/ros2_new_study/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xc2204/ros2_new_study/install/test_pkg:/home/xc2204/ros2_new_study/install/pc_stuts:/home/xc2204/ros2_new_study/install/face_detect:/opt/ros/humble /usr/bin/cmake --build /home/xc2204/ros2_new_study/build/msg_interfaces -- -j20 -l20
+[8.193s] Invoking command in '/home/xc2204/ros2_new_study/build/msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xc2204/ros2_new_study/install/test_pkg:/home/xc2204/ros2_new_study/install/pc_stuts:/home/xc2204/ros2_new_study/install/face_detect:/opt/ros/humble /usr/bin/cmake --install /home/xc2204/ros2_new_study/build/msg_interfaces
+[8.198s] -- Install configuration: ""
+[8.199s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/ament_index/resource_index/rosidl_interfaces/msg_interfaces
+[8.199s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[8.200s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[8.200s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.200s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[8.200s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/system_status__functions.h
+[8.200s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/system_status__struct.h
+[8.200s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/system_status__type_support.h
+[8.201s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/system_status__functions.c
+[8.201s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/system_status.h
+[8.201s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv
+[8.201s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/face_detector.h
+[8.201s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail
+[8.201s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail/face_detector__functions.h
+[8.201s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail/face_detector__struct.h
+[8.201s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail/face_detector__functions.c
+[8.201s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail/face_detector__type_support.h
+[8.201s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/environment/library_path.sh
+[8.201s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/environment/library_path.dsv
+[8.202s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_c.so
+[8.202s] -- Set runtime path of "/home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_c.so" to ""
+[8.202s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[8.202s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[8.203s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.203s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[8.203s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[8.203s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv
+[8.203s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail
+[8.203s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[8.203s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.203s] -- Set runtime path of "/home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.203s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[8.203s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[8.203s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.203s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[8.204s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/system_status__type_support.c
+[8.204s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[8.204s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv
+[8.204s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail
+[8.204s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[8.204s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail/face_detector__type_support.c
+[8.205s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_c.so
+[8.205s] -- Set runtime path of "/home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.205s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_c.so
+[8.205s] -- Set runtime path of "/home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_c.so" to ""
+[8.205s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[8.206s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[8.206s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[8.206s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/system_status__traits.hpp
+[8.206s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/system_status__struct.hpp
+[8.206s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/system_status__type_support.hpp
+[8.206s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/system_status__builder.hpp
+[8.206s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.206s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/system_status.hpp
+[8.206s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv
+[8.207s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail
+[8.207s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail/face_detector__traits.hpp
+[8.207s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail/face_detector__builder.hpp
+[8.207s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail/face_detector__type_support.hpp
+[8.207s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail/face_detector__struct.hpp
+[8.207s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/face_detector.hpp
+[8.207s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[8.207s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[8.207s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.207s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[8.207s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[8.207s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/dds_fastrtps
+[8.207s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv
+[8.207s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail
+[8.207s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail/dds_fastrtps
+[8.208s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[8.208s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.208s] -- Set runtime path of "/home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.209s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[8.209s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[8.209s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[8.209s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/system_status__type_support.cpp
+[8.209s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[8.209s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv
+[8.209s] -- Up-to-date: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail
+[8.209s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail/face_detector__type_support.cpp
+[8.209s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/include/msg_interfaces/msg_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[8.209s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.210s] -- Set runtime path of "/home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.210s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_cpp.so
+[8.210s] -- Set runtime path of "/home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.210s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.sh
+[8.210s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.dsv
+[8.210s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info
+[8.211s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[8.211s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.212s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.212s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[8.212s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces
+[8.212s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c
+[8.212s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg
+[8.212s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_system_status.py
+[8.213s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_system_status_s.c
+[8.213s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/__init__.py
+[8.213s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so
+[8.213s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.213s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/srv
+[8.213s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/srv/_face_detector.py
+[8.213s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/srv/_face_detector_s.c
+[8.213s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/srv/__init__.py
+[8.213s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.214s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.214s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.214s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.214s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py
+[8.248s] Listing '/home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces'...
+[8.248s] Compiling '/home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py'...
+[8.248s] Listing '/home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg'...
+[8.248s] Compiling '/home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/__init__.py'...
+[8.248s] Compiling '/home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_system_status.py'...
+[8.249s] Listing '/home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/srv'...
+[8.249s] Compiling '/home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/srv/__init__.py'...
+[8.249s] Compiling '/home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/srv/_face_detector.py'...
+[8.253s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.253s] -- Set runtime path of "/home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.253s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.253s] -- Set runtime path of "/home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.253s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.254s] -- Set runtime path of "/home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.254s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_py.so
+[8.254s] -- Set runtime path of "/home/xc2204/ros2_new_study/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_py.so" to ""
+[8.254s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/ament_index/resource_index/rust_packages/msg_interfaces
+[8.255s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/rust
+[8.255s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/rust/build.rs
+[8.255s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/rust/src
+[8.256s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/rust/src/srv.rs
+[8.256s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/rust/src/msg
+[8.256s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/rust/src/msg/rmw.rs
+[8.256s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/rust/src/lib.rs
+[8.256s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/rust/src/srv
+[8.256s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/rust/src/srv/rmw.rs
+[8.256s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/rust/src/msg.rs
+[8.256s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/rust/Cargo.toml
+[8.256s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/msg/SystemStatus.idl
+[8.257s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/srv/FaceDetector.idl
+[8.257s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/msg/SystemStatus.msg
+[8.257s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/srv/FaceDetector.srv
+[8.257s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/srv/FaceDetector_Request.msg
+[8.257s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/srv/FaceDetector_Response.msg
+[8.258s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/ament_index/resource_index/package_run_dependencies/msg_interfaces
+[8.258s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/ament_index/resource_index/parent_prefix_path/msg_interfaces
+[8.258s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.sh
+[8.258s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.dsv
+[8.258s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/environment/path.sh
+[8.258s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/environment/path.dsv
+[8.259s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/local_setup.bash
+[8.259s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/local_setup.sh
+[8.259s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/local_setup.zsh
+[8.259s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/local_setup.dsv
+[8.259s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/package.dsv
+[8.259s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/ament_index/resource_index/packages/msg_interfaces
+[8.259s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport.cmake
+[8.259s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.260s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.260s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.260s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.260s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.260s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport.cmake
+[8.260s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.260s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cppExport.cmake
+[8.260s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.261s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.261s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.261s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.261s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport.cmake
+[8.261s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.261s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport.cmake
+[8.261s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.261s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.261s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.262s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.262s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.262s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.262s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.262s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.262s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig.cmake
+[8.262s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig-version.cmake
+[8.262s] -- Installing: /home/xc2204/ros2_new_study/install/msg_interfaces/share/msg_interfaces/package.xml
+[8.265s] Invoked command in '/home/xc2204/ros2_new_study/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xc2204/ros2_new_study/install/test_pkg:/home/xc2204/ros2_new_study/install/pc_stuts:/home/xc2204/ros2_new_study/install/face_detect:/opt/ros/humble /usr/bin/cmake --install /home/xc2204/ros2_new_study/build/msg_interfaces
