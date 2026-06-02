@@ -1,0 +1,23 @@
+[0.842s] Invoking command in '/home/xc2204/ros2_new_study/src/pc_stuts': AMENT_PREFIX_PATH=/home/xc2204/ros2_new_study/install/msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xc2204/ros2_new_study/install/msg_interfaces LD_LIBRARY_PATH=/home/xc2204/ros2_new_study/install/msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xc2204/ros2_new_study/build/pc_stuts/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages:/home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pc_stuts build --build-base /home/xc2204/ros2_new_study/build/pc_stuts/build install --record /home/xc2204/ros2_new_study/build/pc_stuts/install.log --single-version-externally-managed install_data
+[0.989s] running egg_info
+[0.989s] writing ../../build/pc_stuts/pc_stuts.egg-info/PKG-INFO
+[0.991s] writing dependency_links to ../../build/pc_stuts/pc_stuts.egg-info/dependency_links.txt
+[0.991s] writing entry points to ../../build/pc_stuts/pc_stuts.egg-info/entry_points.txt
+[0.991s] writing requirements to ../../build/pc_stuts/pc_stuts.egg-info/requires.txt
+[0.991s] writing top-level names to ../../build/pc_stuts/pc_stuts.egg-info/top_level.txt
+[0.992s] reading manifest file '../../build/pc_stuts/pc_stuts.egg-info/SOURCES.txt'
+[0.993s] writing manifest file '../../build/pc_stuts/pc_stuts.egg-info/SOURCES.txt'
+[0.994s] running build
+[0.994s] running build_py
+[0.994s] running install
+[0.994s] running install_lib
+[0.996s] running install_data
+[0.996s] running install_egg_info
+[0.997s] removing '/home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages/pc_stuts-0.0.0-py3.10.egg-info' (and everything under it)
+[0.997s] Copying ../../build/pc_stuts/pc_stuts.egg-info to /home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages/pc_stuts-0.0.0-py3.10.egg-info
+[0.998s] running install_scripts
+[1.018s] Installing qt_ui script to /home/xc2204/ros2_new_study/install/pc_stuts/lib/pc_stuts
+[1.019s] Installing stuts_pub script to /home/xc2204/ros2_new_study/install/pc_stuts/lib/pc_stuts
+[1.019s] Installing stuts_sub script to /home/xc2204/ros2_new_study/install/pc_stuts/lib/pc_stuts
+[1.019s] writing list of installed files to '/home/xc2204/ros2_new_study/build/pc_stuts/install.log'
+[1.043s] Invoked command in '/home/xc2204/ros2_new_study/src/pc_stuts' returned '0': AMENT_PREFIX_PATH=/home/xc2204/ros2_new_study/install/msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xc2204/ros2_new_study/install/msg_interfaces LD_LIBRARY_PATH=/home/xc2204/ros2_new_study/install/msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xc2204/ros2_new_study/build/pc_stuts/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xc2204/ros2_new_study/install/pc_stuts/lib/python3.10/site-packages:/home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pc_stuts build --build-base /home/xc2204/ros2_new_study/build/pc_stuts/build install --record /home/xc2204/ros2_new_study/build/pc_stuts/install.log --single-version-externally-managed install_data

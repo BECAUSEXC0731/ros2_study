@@ -1,0 +1,50 @@
+[0.963s] Invoking command in '/home/xc2204/ros2_new_study/src/test_pkg': AMENT_PREFIX_PATH=/home/xc2204/ros2_new_study/install/msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xc2204/ros2_new_study/install/msg_interfaces LD_LIBRARY_PATH=/home/xc2204/ros2_new_study/install/msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xc2204/ros2_new_study/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages:/home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/xc2204/ros2_new_study/build/test_pkg/build install --record /home/xc2204/ros2_new_study/build/test_pkg/install.log --single-version-externally-managed install_data
+[1.152s] running egg_info
+[1.153s] creating ../../build/test_pkg/test_pkg.egg-info
+[1.153s] writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO
+[1.153s] writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+[1.154s] writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt
+[1.154s] writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt
+[1.154s] writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt
+[1.154s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[1.156s] reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[1.156s] adding license file 'LICENSE'
+[1.157s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[1.157s] running build
+[1.157s] running build_py
+[1.157s] creating /home/xc2204/ros2_new_study/build/test_pkg/build
+[1.158s] creating /home/xc2204/ros2_new_study/build/test_pkg/build/lib
+[1.158s] creating /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg
+[1.158s] copying test_pkg/subscriber.py -> /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg
+[1.159s] copying test_pkg/publisher.py -> /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg
+[1.159s] copying test_pkg/download.py -> /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg
+[1.159s] copying test_pkg/hello.py -> /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg
+[1.159s] copying test_pkg/__init__.py -> /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg
+[1.159s] running install
+[1.160s] running install_lib
+[1.161s] creating /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[1.161s] copying /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg/subscriber.py -> /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[1.161s] copying /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg/publisher.py -> /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[1.162s] copying /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg/download.py -> /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[1.162s] copying /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg/hello.py -> /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[1.162s] copying /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg/__init__.py -> /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[1.162s] byte-compiling /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg/subscriber.py to subscriber.cpython-310.pyc
+[1.163s] byte-compiling /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg/publisher.py to publisher.cpython-310.pyc
+[1.163s] byte-compiling /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg/download.py to download.cpython-310.pyc
+[1.164s] byte-compiling /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg/hello.py to hello.cpython-310.pyc
+[1.164s] byte-compiling /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg/__init__.py to __init__.cpython-310.pyc
+[1.165s] running install_data
+[1.165s] creating /home/xc2204/ros2_new_study/install/test_pkg/share/ament_index
+[1.165s] creating /home/xc2204/ros2_new_study/install/test_pkg/share/ament_index/resource_index
+[1.166s] creating /home/xc2204/ros2_new_study/install/test_pkg/share/ament_index/resource_index/packages
+[1.166s] copying resource/test_pkg -> /home/xc2204/ros2_new_study/install/test_pkg/share/ament_index/resource_index/packages
+[1.167s] copying package.xml -> /home/xc2204/ros2_new_study/install/test_pkg/share/test_pkg
+[1.167s] running install_egg_info
+[1.170s] Copying ../../build/test_pkg/test_pkg.egg-info to /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info
+[1.172s] running install_scripts
+[1.192s] Installing download_node script to /home/xc2204/ros2_new_study/install/test_pkg/lib/test_pkg
+[1.192s] Installing name_node script to /home/xc2204/ros2_new_study/install/test_pkg/lib/test_pkg
+[1.192s] Installing publisher_node script to /home/xc2204/ros2_new_study/install/test_pkg/lib/test_pkg
+[1.192s] Installing subscriber_node script to /home/xc2204/ros2_new_study/install/test_pkg/lib/test_pkg
+[1.193s] writing list of installed files to '/home/xc2204/ros2_new_study/build/test_pkg/install.log'
+[1.220s] Invoked command in '/home/xc2204/ros2_new_study/src/test_pkg' returned '0': AMENT_PREFIX_PATH=/home/xc2204/ros2_new_study/install/msg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xc2204/ros2_new_study/install/msg_interfaces LD_LIBRARY_PATH=/home/xc2204/ros2_new_study/install/msg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xc2204/ros2_new_study/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages:/home/xc2204/ros2_new_study/install/msg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/xc2204/ros2_new_study/build/test_pkg/build install --record /home/xc2204/ros2_new_study/build/test_pkg/install.log --single-version-externally-managed install_data

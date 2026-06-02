@@ -1,0 +1,1 @@
+Invoking command in '/home/xc2204/ros2_new_study/build/msg_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xc2204/ros2_new_study/build/msg_interfaces -- -j20 -l20

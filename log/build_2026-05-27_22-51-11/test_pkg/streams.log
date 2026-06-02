@@ -1,0 +1,50 @@
+[0.778s] Invoking command in '/home/xc2204/ros2_new_study/src/test_pkg': CMAKE_PREFIX_PATH=/home/xc2204/ros2_new_study/install/msg_interfaces:/home/xc2204/ros2_new_study/install/urdf_study PYTHONPATH=/home/xc2204/ros2_new_study/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/xc2204/ros2_new_study/build/test_pkg/build install --record /home/xc2204/ros2_new_study/build/test_pkg/install.log --single-version-externally-managed install_data
+[0.962s] running egg_info
+[0.962s] creating ../../build/test_pkg/test_pkg.egg-info
+[0.962s] writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO
+[0.963s] writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+[0.963s] writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt
+[0.963s] writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt
+[0.963s] writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt
+[0.963s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.964s] reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.965s] adding license file 'LICENSE'
+[0.965s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.965s] running build
+[0.965s] running build_py
+[0.965s] creating /home/xc2204/ros2_new_study/build/test_pkg/build
+[0.966s] creating /home/xc2204/ros2_new_study/build/test_pkg/build/lib
+[0.966s] creating /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg
+[0.966s] copying test_pkg/subscriber.py -> /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg
+[0.966s] copying test_pkg/publisher.py -> /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg
+[0.966s] copying test_pkg/download.py -> /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg
+[0.967s] copying test_pkg/hello.py -> /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg
+[0.967s] copying test_pkg/__init__.py -> /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg
+[0.967s] running install
+[0.967s] running install_lib
+[0.967s] creating /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[0.967s] copying /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg/subscriber.py -> /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[0.968s] copying /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg/publisher.py -> /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[0.968s] copying /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg/download.py -> /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[0.968s] copying /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg/hello.py -> /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[0.968s] copying /home/xc2204/ros2_new_study/build/test_pkg/build/lib/test_pkg/__init__.py -> /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg
+[0.968s] byte-compiling /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg/subscriber.py to subscriber.cpython-310.pyc
+[0.969s] byte-compiling /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg/publisher.py to publisher.cpython-310.pyc
+[0.969s] byte-compiling /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg/download.py to download.cpython-310.pyc
+[0.970s] byte-compiling /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg/hello.py to hello.cpython-310.pyc
+[0.970s] byte-compiling /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg/__init__.py to __init__.cpython-310.pyc
+[0.970s] running install_data
+[0.970s] creating /home/xc2204/ros2_new_study/install/test_pkg/share/ament_index
+[0.970s] creating /home/xc2204/ros2_new_study/install/test_pkg/share/ament_index/resource_index
+[0.971s] creating /home/xc2204/ros2_new_study/install/test_pkg/share/ament_index/resource_index/packages
+[0.971s] copying resource/test_pkg -> /home/xc2204/ros2_new_study/install/test_pkg/share/ament_index/resource_index/packages
+[0.971s] copying package.xml -> /home/xc2204/ros2_new_study/install/test_pkg/share/test_pkg
+[0.971s] running install_egg_info
+[0.973s] Copying ../../build/test_pkg/test_pkg.egg-info to /home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages/test_pkg-0.0.0-py3.10.egg-info
+[0.974s] running install_scripts
+[0.991s] Installing download_node script to /home/xc2204/ros2_new_study/install/test_pkg/lib/test_pkg
+[0.991s] Installing name_node script to /home/xc2204/ros2_new_study/install/test_pkg/lib/test_pkg
+[0.991s] Installing publisher_node script to /home/xc2204/ros2_new_study/install/test_pkg/lib/test_pkg
+[0.991s] Installing subscriber_node script to /home/xc2204/ros2_new_study/install/test_pkg/lib/test_pkg
+[0.991s] writing list of installed files to '/home/xc2204/ros2_new_study/build/test_pkg/install.log'
+[1.014s] Invoked command in '/home/xc2204/ros2_new_study/src/test_pkg' returned '0': CMAKE_PREFIX_PATH=/home/xc2204/ros2_new_study/install/msg_interfaces:/home/xc2204/ros2_new_study/install/urdf_study PYTHONPATH=/home/xc2204/ros2_new_study/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xc2204/ros2_new_study/install/test_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/xc2204/ros2_new_study/build/test_pkg/build install --record /home/xc2204/ros2_new_study/build/test_pkg/install.log --single-version-externally-managed install_data

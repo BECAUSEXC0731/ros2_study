@@ -1,0 +1,24 @@
+[0.959s] Invoking command in '/home/xc2204/ros2_new_study/src/TF_study': PYTHONPATH=/home/xc2204/ros2_new_study/build/TF_study/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xc2204/ros2_new_study/install/TF_study/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/TF_study build --build-base /home/xc2204/ros2_new_study/build/TF_study/build install --record /home/xc2204/ros2_new_study/build/TF_study/install.log --single-version-externally-managed install_data
+[1.122s] running egg_info
+[1.122s] writing ../../build/TF_study/TF_study.egg-info/PKG-INFO
+[1.123s] writing dependency_links to ../../build/TF_study/TF_study.egg-info/dependency_links.txt
+[1.123s] writing entry points to ../../build/TF_study/TF_study.egg-info/entry_points.txt
+[1.124s] writing requirements to ../../build/TF_study/TF_study.egg-info/requires.txt
+[1.124s] writing top-level names to ../../build/TF_study/TF_study.egg-info/top_level.txt
+[1.125s] reading manifest file '../../build/TF_study/TF_study.egg-info/SOURCES.txt'
+[1.126s] adding license file 'LICENSE'
+[1.127s] writing manifest file '../../build/TF_study/TF_study.egg-info/SOURCES.txt'
+[1.127s] running build
+[1.127s] running build_py
+[1.127s] running install
+[1.128s] running install_lib
+[1.128s] running install_data
+[1.128s] running install_egg_info
+[1.129s] removing '/home/xc2204/ros2_new_study/install/TF_study/lib/python3.10/site-packages/TF_study-0.0.0-py3.10.egg-info' (and everything under it)
+[1.130s] Copying ../../build/TF_study/TF_study.egg-info to /home/xc2204/ros2_new_study/install/TF_study/lib/python3.10/site-packages/TF_study-0.0.0-py3.10.egg-info
+[1.131s] running install_scripts
+[1.148s] Installing dynamic_tf_broadcaster script to /home/xc2204/ros2_new_study/install/TF_study/lib/TF_study
+[1.148s] Installing static_tf_broadcaster script to /home/xc2204/ros2_new_study/install/TF_study/lib/TF_study
+[1.148s] Installing tf_listen script to /home/xc2204/ros2_new_study/install/TF_study/lib/TF_study
+[1.149s] writing list of installed files to '/home/xc2204/ros2_new_study/build/TF_study/install.log'
+[1.169s] Invoked command in '/home/xc2204/ros2_new_study/src/TF_study' returned '0': PYTHONPATH=/home/xc2204/ros2_new_study/build/TF_study/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xc2204/ros2_new_study/install/TF_study/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/TF_study build --build-base /home/xc2204/ros2_new_study/build/TF_study/build install --record /home/xc2204/ros2_new_study/build/TF_study/install.log --single-version-externally-managed install_data

@@ -1,0 +1,40 @@
+[0.559s] Invoking command in '/home/xc2204/ros2_new_study/build/urdf_study': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xc2204/ros2_new_study/install/test_pkg:/home/xc2204/ros2_new_study/install/pc_stuts:/home/xc2204/ros2_new_study/install/face_detect:/home/xc2204/ros2_new_study/install/TF_study:/opt/ros/humble /usr/bin/cmake --build /home/xc2204/ros2_new_study/build/urdf_study -- -j20 -l20
+[0.601s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.820s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.914s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.915s] -- Added test 'lint_cmake' to check CMake code style
+[0.916s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.917s] -- Added test 'xmllint' to check XML markup files
+[0.920s] -- Configuring done
+[0.927s] -- Generating done
+[0.929s] -- Build files have been written to: /home/xc2204/ros2_new_study/build/urdf_study
+[1.403s] Invoked command in '/home/xc2204/ros2_new_study/build/urdf_study' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xc2204/ros2_new_study/install/test_pkg:/home/xc2204/ros2_new_study/install/pc_stuts:/home/xc2204/ros2_new_study/install/face_detect:/home/xc2204/ros2_new_study/install/TF_study:/opt/ros/humble /usr/bin/cmake --build /home/xc2204/ros2_new_study/build/urdf_study -- -j20 -l20
+[1.408s] Invoking command in '/home/xc2204/ros2_new_study/build/urdf_study': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xc2204/ros2_new_study/install/test_pkg:/home/xc2204/ros2_new_study/install/pc_stuts:/home/xc2204/ros2_new_study/install/face_detect:/home/xc2204/ros2_new_study/install/TF_study:/opt/ros/humble /usr/bin/cmake --install /home/xc2204/ros2_new_study/build/urdf_study
+[1.410s] -- Install configuration: ""
+[1.410s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//launch
+[1.410s] -- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//launch/J_L_S_publisher.launch.py
+[1.410s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//URDF
+[1.411s] -- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//URDF/study_urdf_processed.urdf
+[1.411s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//URDF/study_urdf.urdf
+[1.411s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//rviz
+[1.411s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//rviz/urdf_study.rviz
+[1.411s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//rviz/urdf_study.rviz:Zone.Identifier
+[1.411s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//world
+[1.411s] -- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//PLAGIN
+[1.411s] -- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//PLAGIN/cmd_vel.urdf
+[1.411s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/ament_index/resource_index/package_run_dependencies/urdf_study
+[1.411s] -- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/ament_index/resource_index/parent_prefix_path/urdf_study
+[1.411s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/environment/ament_prefix_path.sh
+[1.411s] -- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/environment/ament_prefix_path.dsv
+[1.411s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/environment/path.sh
+[1.411s] -- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/environment/path.dsv
+[1.411s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/local_setup.bash
+[1.412s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/local_setup.sh
+[1.413s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/local_setup.zsh
+[1.413s] -- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/local_setup.dsv
+[1.414s] -- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/package.dsv
+[1.415s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/ament_index/resource_index/packages/urdf_study
+[1.415s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/cmake/urdf_studyConfig.cmake
+[1.416s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/cmake/urdf_studyConfig-version.cmake
+[1.416s] -- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/package.xml
+[1.417s] Invoked command in '/home/xc2204/ros2_new_study/build/urdf_study' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xc2204/ros2_new_study/install/test_pkg:/home/xc2204/ros2_new_study/install/pc_stuts:/home/xc2204/ros2_new_study/install/face_detect:/home/xc2204/ros2_new_study/install/TF_study:/opt/ros/humble /usr/bin/cmake --install /home/xc2204/ros2_new_study/build/urdf_study

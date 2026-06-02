@@ -1,0 +1,9 @@
+/home/xc2204/ros2_new_study/build/urdf_study/CMakeFiles/uninstall.dir
+/home/xc2204/ros2_new_study/build/urdf_study/CMakeFiles/urdf_study_uninstall.dir
+/home/xc2204/ros2_new_study/build/urdf_study/CMakeFiles/test.dir
+/home/xc2204/ros2_new_study/build/urdf_study/CMakeFiles/edit_cache.dir
+/home/xc2204/ros2_new_study/build/urdf_study/CMakeFiles/rebuild_cache.dir
+/home/xc2204/ros2_new_study/build/urdf_study/CMakeFiles/list_install_components.dir
+/home/xc2204/ros2_new_study/build/urdf_study/CMakeFiles/install.dir
+/home/xc2204/ros2_new_study/build/urdf_study/CMakeFiles/install/local.dir
+/home/xc2204/ros2_new_study/build/urdf_study/CMakeFiles/install/strip.dir

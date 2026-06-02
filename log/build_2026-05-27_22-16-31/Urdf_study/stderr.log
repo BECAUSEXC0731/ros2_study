@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/home/xc2204/ros2_new_study/src/urdf_study/CMakeLists.txt" does not match the source "/home/xc2204/ros2_new_study/src/Urdf_study/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

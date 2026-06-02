@@ -1,5 +1,0 @@
-[console_scripts]
-client_face_detect = face_detect.client_face_detect:main
-srv_face_detect = face_detect.srv_face_detect:main
-video_detect = face_detect.video_detect:main
-

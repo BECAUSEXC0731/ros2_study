@@ -1,3 +1,0 @@
-[console_scripts]
-static_tf_broadcaster = TF_study.static_TF_broadcast:main
-

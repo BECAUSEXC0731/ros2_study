@@ -1,0 +1,24 @@
+[0.026s] Invoking command in '/home/xc2204/ros2_new_study/build/msg_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xc2204/ros2_new_study/build/msg_interfaces -- -j20 -l20
+[0.241s] [  2%] Built target msg_interfaces__rs
+[0.242s] [ 12%] Built target msg_interfaces__rosidl_generator_c
+[0.242s] [ 15%] Built target msg_interfaces__cpp
+[0.242s] [ 15%] Built target ament_cmake_python_copy_msg_interfaces
+[0.242s] [ 25%] Built target msg_interfaces__rosidl_typesupport_c
+[0.242s] [ 40%] Built target msg_interfaces__rosidl_typesupport_cpp
+[0.242s] [ 45%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c
+[0.242s] [ 55%] Built target msg_interfaces__rosidl_typesupport_introspection_cpp
+[0.242s] [ 65%] Built target msg_interfaces__rosidl_typesupport_introspection_c
+[0.242s] [ 75%] Built target msg_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.242s] [ 75%] Built target msg_interfaces
+[0.243s] [ 77%] Built target msg_interfaces__py
+[0.243s] [ 85%] Built target msg_interfaces__rosidl_generator_py
+[0.243s] [ 90%] Built target msg_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.243s] [ 95%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.243s] [100%] Built target msg_interfaces__rosidl_typesupport_c__pyext
+[0.333s] running egg_info
+[0.334s] writing msg_interfaces.egg-info/PKG-INFO
+[0.334s] writing dependency_links to msg_interfaces.egg-info/dependency_links.txt
+[0.334s] writing top-level names to msg_interfaces.egg-info/top_level.txt
+[0.337s] reading manifest file 'msg_interfaces.egg-info/SOURCES.txt'
+[0.338s] writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'
+[0.361s] [100%] Built target ament_cmake_python_build_msg_interfaces_egg

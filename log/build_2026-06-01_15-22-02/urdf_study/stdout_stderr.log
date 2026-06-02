@@ -1,0 +1,38 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xc2204/ros2_new_study/build/urdf_study
+-- Install configuration: ""
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//launch
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//launch/J_L_S_publisher.launch.py
+-- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//launch/cmd.launch.py
+-- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//urdf
+-- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//urdf/cmd_vel.urdf
+-- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//urdf/study_urdf_processed.urdf
+-- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//urdf/study_urdf.urdf
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//rviz
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//rviz/urdf_study.rviz
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//rviz/urdf_study.rviz:Zone.Identifier
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//world
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//PLAGIN
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//PLAGIN/cmd_vel.urdf
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/ament_index/resource_index/package_run_dependencies/urdf_study
+-- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/ament_index/resource_index/parent_prefix_path/urdf_study
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/environment/ament_prefix_path.sh
+-- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/environment/path.sh
+-- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/environment/path.dsv
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/local_setup.bash
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/local_setup.sh
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/local_setup.zsh
+-- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/local_setup.dsv
+-- Installing: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/package.dsv
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/ament_index/resource_index/packages/urdf_study
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/cmake/urdf_studyConfig.cmake
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/cmake/urdf_studyConfig-version.cmake
+-- Up-to-date: /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study/package.xml
