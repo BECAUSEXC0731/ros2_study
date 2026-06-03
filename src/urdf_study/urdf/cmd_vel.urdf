@@ -254,13 +254,14 @@
     <material>Gazebo/DarkGrey</material>
   </gazebo>
 
+  <!-- ⚠️ 修复：万向轮摩擦改为0，避免物理约束冲突导致仿真卡死 -->
   <gazebo reference="front_left_wheel">
-    <mu1>0.1</mu1><mu2>0.1</mu2>
+    <mu1>0.0</mu1><mu2>0.0</mu2>
     <kp>1000000.0</kp><kd>100.0</kd>
     <material>Gazebo/DarkGrey</material>
   </gazebo>
   <gazebo reference="front_right_wheel">
-    <mu1>0.1</mu1><mu2>0.1</mu2>
+    <mu1>0.0</mu1><mu2>0.0</mu2>
     <kp>1000000.0</kp><kd>100.0</kd>
     <material>Gazebo/DarkGrey</material>
   </gazebo>
@@ -273,16 +274,18 @@
     <mu1>1.0</mu1><mu2>1.0</mu2>
     <kp>1000000.0</kp><kd>100.0</kd>
   </gazebo>
+
+  <!-- ⚠️ 修复：万向轮接触点摩擦也改为0 -->
   <gazebo reference="front_left_contact">
-    <mu1>0.1</mu1><mu2>0.1</mu2>
+    <mu1>0.0</mu1><mu2>0.0</mu2>
     <kp>1000000.0</kp><kd>100.0</kd>
   </gazebo>
   <gazebo reference="front_right_contact">
-    <mu1>0.1</mu1><mu2>0.1</mu2>
+    <mu1>0.0</mu1><mu2>0.0</mu2>
     <kp>1000000.0</kp><kd>100.0</kd>
   </gazebo>
 
-  <!-- ==================== 差速驱动插件 + 物理引擎优化 ==================== -->
+  <!-- ==================== 差速驱动插件（已修复） ==================== -->
   <gazebo>
     <physics type="ode">
       <max_step_size>0.001</max_step_size>
@@ -291,17 +294,31 @@
     </physics>
 
     <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+      <!-- ⚠️ 新增：显式ROS2配置，确保节点正确初始化 -->
+      <ros>
+        <namespace>/</namespace>
+        <remapping>cmd_vel:=cmd_vel</remapping>
+        <remapping>odom:=odom</remapping>
+      </ros>
+
       <update_rate>100.0</update_rate>
       <command_topic>cmd_vel</command_topic>
       <odometry_topic>odom</odometry_topic>
       <odometry_frame>odom</odometry_frame>
       <robot_base_frame>base_footprint</robot_base_frame>
-      <left_joint>rear_right_wheel_joint</left_joint>
-      <right_joint>rear_left_wheel_joint</right_joint>
+
+      <left_joint>rear_left_wheel_joint</left_joint>
+      <right_joint>rear_right_wheel_joint</right_joint>
       <wheel_separation>0.35</wheel_separation>
       <wheel_diameter>0.16</wheel_diameter>
       <max_wheel_torque>20.0</max_wheel_torque>
       <max_wheel_acceleration>2.0</max_wheel_acceleration>
+
+      <!-- ⚠️ 新增：显式启用里程计发布 -->
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>false</publish_wheel_tf>
+
       <covariance_x>0.0001</covariance_x>
       <covariance_y>0.0001</covariance_y>
       <covariance_yaw>0.001</covariance_yaw>

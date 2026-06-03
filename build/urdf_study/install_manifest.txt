@@ -5,6 +5,10 @@
 /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//urdf/study_urdf.urdf
 /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//rviz/urdf_study.rviz
 /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//rviz/urdf_study.rviz:Zone.Identifier
+/home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//world/room2.world
+/home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//world/room2/model.sdf
+/home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//world/room2/model.config
+/home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//world/frames.png
 /home/xc2204/ros2_new_study/install/urdf_study/share/urdf_study//PLAGIN/cmd_vel.urdf
 /home/xc2204/ros2_new_study/install/urdf_study/share/ament_index/resource_index/package_run_dependencies/urdf_study
 /home/xc2204/ros2_new_study/install/urdf_study/share/ament_index/resource_index/parent_prefix_path/urdf_study
